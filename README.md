@@ -9,6 +9,9 @@ To get started with this project, you'll need to download or clone the repositor
 [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)<br />
 [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)<br />
 
+### Preview
+![Product card preview](https://github.com/LDangDev/Product_card/blob/main/Screenshot%202023-04-08%20at%2023.27.11.png)
+
 ## Acknowledgments
 
 [Nodemy](https://www.nodemy.vn/projects/html-css-js/product-card/) is the inspiration and the starting point for this project.
