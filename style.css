@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,100;1,200;1,300&family=Roboto:ital,wght@0,100;0,500;0,700;1,100;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #4daf54;
+}
+
+body {
+    /* Positioning */
+
+    /* Display & box-model */
+    height: 100vh;
+
+    /* color */
+    background: linear-gradient(to right, var(--primary-color), #3d8880);
+    color: white;
+    
+    /* Text */
+    font-family: 'poppins';
+
+    /* Other */
+}
+
+.card{
+    /* Positioning */
+    position: relative;
+
+    /* Display & box-model */
+    width: 320px;
+    height: 400px;
+    margin: 120px auto;
+    padding: 40px 20px;
+    border-radius: 15px;
+
+    /* color */
+    background-color: #272d40;
+}
+
+
+.card__heart,
+.card__cart{
+    /* Positioning */
+    position: absolute;
+
+    /* Display & box-model */
+    font-size: 25px;
+    top: 12px;
+
+    /* color */
+    color: white;
+
+    /* other */
+    cursor: pointer;
+}
+
+.card__heart{
+    /* Display & box-model */
+    left: 20px;
+}
+
+.card__cart{
+    /* Display & box-model */
+    right: 20px;
+}
+
+.card__img{
+    /* Display & box-model */
+    margin-right: 30px;
+
+    /* other */
+    transition: .5s linear;
+
+}
+
+.card__img img{
+    /* Display & box-model */
+    width: 100%;
+    height: 100%;
+
+    /* other */
+    object-fit: cover;
+    
+}
+
+.card__title{
+    /* text */
+    text-align: center;
+
+    /* color */
+    color: var(--primary-color);
+
+    /* other */
+    transition: 0.3s linear;
+}
+
+.card__price{
+    /* Display & box-model */
+    text-align: center;
+
+    /* text */
+    font-weight: 600px;
+    font-size: 26px;
+    font-weight: bold;
+
+    /* other */
+    transition: 0.3s linear;
+}
+
+.card__size,
+.card__color{
+    /* Display & box-model */
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.card__size > h3 {
+    /* Display & box-model */
+    margin-right: 12px;
+
+    /* text */
+    font-weight: unset;
+}
+
+.card__size > span {
+    /* Display & box-model */
+    padding: 2px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+
+    /* color */
+    background-color: #dadada;
+    color: #272d40;
+
+    /* other */
+    cursor: pointer;
+}
+
+.card__color > span {
+    /* Display & box-model */
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 5px;
+    margin-left: 10px;
+
+    /* other */
+    cursor: pointer;
+}
+
+.card__color--green{
+    /* color */
+    background-color: red;
+}
+
+.card__color--red{
+    /* color */
+    background-color: green;
+}
+
+.card__color--black{
+    /* color */
+    background-color: black;
+}
+
+.card__action > button{
+    /* Display & box-model */
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 7px;
+    border: none;
+    min-width: 80px;
+    
+    /* color */
+    background-color: var(--primary-color);
+    color: white;
+    
+    /* text */
+    font-weight: 600;
+    outline: none;
+    
+    /* other */
+    cursor: pointer; 
+}
+
+.container{
+    /* Display & box-model */
+    margin-top: 120px;
+
+    /* other */
+    opacity: 0;
+}
+
+
+.card:hover .card__img{
+    /* other */
+    transform: translateY(-90px) rotate(-20deg);
+}
+
+.card:hover .card__title {
+     /* other */
+    transform: translate(-40px, -72px);
+}
+
+.card:hover .card__price{
+    /* other */
+    transform: translate(-112px, -72px);
+
+}
+
+.card:hover .container{
+    /* Display & box-model */
+    margin-top: -20px;
+
+    /* other */
+    opacity: 1;
+    transition: 0.3s linear 0.2s;
+}
