@@ -10,7 +10,7 @@ To get started with this project, you'll need to download or clone the repositor
 [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)<br />
 
 ### Preview
-![Product card preview](https://github.com/LDangDev/Product_card/blob/main/Screenshot%202023-04-08%20at%2023.27.11.png)
+![Product card preview](https://github.com/LDangDev/Product_card/blob/main/demo_AdobeExpress.gif)
 
 ## Acknowledgments
 
