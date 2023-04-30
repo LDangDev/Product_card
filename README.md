@@ -11,7 +11,3 @@ To get started with this project, you'll need to download or clone the repositor
 
 ### Preview
 ![Product card preview](https://github.com/LDangDev/Product_card/blob/main/demo_AdobeExpress.gif)
-
-## Acknowledgments
-
-[Nodemy](https://www.nodemy.vn/projects/html-css-js/product-card/) is the inspiration and the starting point for this project.
